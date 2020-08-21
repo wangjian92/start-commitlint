@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/wangjian92/start-commitlint#readme",
   "devDependencies": {
-    "cz-conventional-changelog": "^3.2.0"
+    "cz-conventional-changelog": "^3.2.0",
+    "cz-customizable": "^6.3.0"
   },
   "config": {
     "commitizen": {
