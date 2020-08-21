@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/wangjian92/start-commitlint/issues"
   },
-  "homepage": "https://github.com/wangjian92/start-commitlint#readme"
+  "homepage": "https://github.com/wangjian92/start-commitlint#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
