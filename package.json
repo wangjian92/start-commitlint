@@ -1,0 +1,19 @@
+{
+  "name": "start-commitlint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangjian92/start-commitlint.git"
+  },
+  "author": "wj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangjian92/start-commitlint/issues"
+  },
+  "homepage": "https://github.com/wangjian92/start-commitlint#readme"
+}
