@@ -1,12 +1,12 @@
-const version = process.argv[2] || process.env.VERSION
+const version = process.argv[2] || process.env.VERSION || require('../package.json').version
 const cc = require('conventional-changelog')
-const file = `./CHANGELOG${version ? `_${version}` : ``}.md`
+const file = `./CHANGELOGS/CHANGELOG${version ? `_${version}` : ``}.md`
 const fileStream = require('fs').createWriteStream(file)
 
 cc({
   preset: 'angular',
   pkg: {
-    transform (pkg) {
+    transform(pkg) {
       pkg.version = `v${version}`
       return pkg
     }
