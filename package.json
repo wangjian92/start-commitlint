@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "release:note": "node scripts/gen-release-note.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/wangjian92/start-commitlint#readme",
   "devDependencies": {
+    "conventional-changelog": "^3.1.23",
     "cz-conventional-changelog": "^3.2.0",
     "cz-customizable": "^6.3.0"
   },
