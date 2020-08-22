@@ -1,12 +1,11 @@
 {
   "name": "start-commitlint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "release:note": "node scripts/gen-release-note.js"
   },
   "repository": {
